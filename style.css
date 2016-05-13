@@ -41,9 +41,9 @@ body {
 
 #exploreBody {
 	background-image: url("img/b1.jpg");
-
 }
 #character{
     text-align: center;
     font-size: 50px;
+    color: white;
 }
