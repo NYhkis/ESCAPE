@@ -40,7 +40,10 @@ body {
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
+	background-image: url("img/b1.jpg");
 	background-position: bottom center;
 
+}
+#character{
+    text-align: center;
 }
