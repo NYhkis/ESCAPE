@@ -1,7 +1,9 @@
 $( document ).ready(function() {
-$("#C1").click(function(){
-$("#C1").hide();
-
+$("#Start").click(function(){
+$("#C1").show();
+$("#Start").hide();
+$("#exploreBody").show();
 });
+
 
 });
