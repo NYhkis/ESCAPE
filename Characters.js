@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", game);
 //General sprite load
 var sprite = new Image();
 var spriteExplosion = new Image();
-sprite.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/sprite.png';
+sprite.src = 'https://upload.wikimedia.org/wikipedia/en/f/f7/Mega_Man_(Mega_Man_9).png';
 
 window.onload = function() {
     spriteExplosion.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/explosion.png';
