@@ -1,50 +1,28 @@
-body {
+html {
+    overflow: hidden;
+    height: 100%;
+    background: #191919;
+    width: 100%;
+}
 
-	background-image: url("http://vignette2.wikia.nocookie.net/steamtradingcards/images/8/8f/Magical_Diary_Background_Dungeon_Intersection_Lit.jpg/revision/latest/scale-to-width-down/800?cb=20130930074020");
+#canvas {
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/space.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    background-position: center center;
-	font-family: monospace;
-
 }
 
-/*Stuff below governs the start screen*/
-
-.titleContent {
-	margin: 10% auto;
-    text-align: center;
+#canvas.playing {
+    cursor: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/aim_red.png') 17.5 17.5,auto !important;
 }
 
-.splashTitle {
-	color: #fff;
-    font-size: 8em;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
-}
-
-.button {
-	border: 5px solid #383838;
-    color: #383838;
-    padding: 20px 50px;
-    font-size: 5em;
-    text-decoration: none;
-    background-color: #abc;
-    box-shadow: 15px 15px 80px #555;
-}
-  a.button:hover {
-    background-color: #383838;
-    color: #abc;
-  }
-
-
-
-/*Stuff below governs the Explore screen*/
-
-#exploreBody {
-	background-image: url("img/b1.jpg");
-    background-size: 80px 60px;
-}
-#character{
-    text-align: center;
-    font-size: 40px;
-    color: white;
+.full-screen {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/full-screen.png) no-repeat;
+    z-index: 10;
+    display: block;
+    right: 10px;
+    bottom: 10px;
 }
