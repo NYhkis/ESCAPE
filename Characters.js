@@ -180,7 +180,7 @@ function game() {
 
         //Planet rotation
         ctx.translate(cW/2,cH/2);
-        ctx.rotate((_planet.deg += 0.1) * (Math.PI / 180));
+
         ctx.drawImage(sprite, 0, 0, 200, 200, -100, -100, 200,200);
         ctx.restore();
     }
