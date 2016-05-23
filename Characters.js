@@ -168,6 +168,10 @@ function game() {
         ctx.shadowOffsetX = 0;
         ctx.shadowOffsetY = 0;
         ctx.shadowColor   = "#999";
+
+        ctx.rect(
+
+        );
         ctx.fill();
 
         //Planet rotation
