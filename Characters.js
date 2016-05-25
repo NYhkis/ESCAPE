@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", game);
 //General sprite load
 var sprite = new Image();
 var spriteExplosion = new Image();
-sprite.src = '';
+sprite.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/sprite.png';
 
 window.onload = function() {
     spriteExplosion.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/600764/explosion.png';
